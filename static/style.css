@@ -1,0 +1,208 @@
+@font-face {
+    font-family: 'zizou-slab-bold';
+    src: url(../static/font/zizou-slab-bold.woff),
+         url(../static/font/zizou-slab-bold.ttf);
+}
+@font-face{ 
+	font-family: 'sgothic-bdcap';
+	src: url(../static/font/sgothic-bdcap-webfont.eot);
+	src: url(../static/font/sgothic-bdcap-webfont.woff) format('woff'),
+	     url(../static/font/sgothic-bdcap-webfont.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.fuente-zizou-regular{
+    font-family: 'Zizou Slab', sans-serif;
+}                
+.fuente-zizou-bold{
+    font-family: 'zizou-slab-bold', sans-serif;
+
+}
+.fuente-gothic{
+	font-family: 'sgothic-bdcap', sans-serif;
+
+
+}
+
+/* general */
+.height-40{
+    height: 40px !important;
+}
+.height-75{
+    height: 75px !important;
+}
+
+/* tamaÃ±os de letra */
+.size-12{
+   font-size: 12px !important;
+}
+.size-1r{
+    font-size: 1rem !important;
+}
+.size-19{
+    font-size: 19px !important;
+}
+.size-40{
+    font-size: 40PX ;
+}
+.size-100{
+    font-size: 100px;
+}
+.size-130{
+    font-size: 130px !important;
+}
+@media (min-width:768px) {
+    .size-md-18{
+        font-size: 18px !important;
+    }
+}
+
+/* tipo de letra */
+/* .fuente-gothic{
+    font-family: "sgothic-bdcap" !important;
+}
+.fuente-zizou-bold{
+    font-family: "zizou-slab-bold" !important;
+}
+.fuente-zizou-regular{
+    font-family: "zizou-slab-regular" !important;
+} */
+/* TEXT COLOR */
+.text-red{
+    color: #E50A17;
+}
+/* background-color */
+.bg-red{
+    background-color: #E50A17;
+}
+.bg-red-dark{
+    background-color: #B70812;
+}
+.bg-gray-light{
+    background-color: rgba(226, 226, 226, 0.61) !important;
+}
+.bg-black{
+    background-color: black;
+}
+.bg-purple{
+    background-color: #4C29B7;
+}
+/* style header */
+header{
+    z-index: 20;
+    position: sticky;
+}
+.bg-programa-titulacion{
+    min-height: 700px ;
+    background-image: url('./cover.jpg');
+    background-position: center bottom;
+    background-color: black;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+#widget-form{
+    padding-top: 280px;
+}
+
+@media (min-width:768px) {
+    .bg-programa-titulacion{
+        background-image: url('./cover.jpg');
+        min-height: 850px;
+    }
+}
+@media (min-width:992px) {
+    .bg-programa-titulacion{
+        background-image: url('./cover.jpg');
+        background-size: cover;
+        background-position: center;
+        min-height: 680px;
+    }
+    #widget-form{
+        padding-top: 100px;
+        margin-left: 200px;
+    }
+}
+
+/* style sections */
+main section h2 {
+    padding-left: 25px;
+    border-left: 6px solid #E50A17 !important;
+}
+/* style-boton-registro */
+#btn-register-fixed{
+    right: 0px;
+    bottom:1%;
+    z-index: 5; 
+    cursor: pointer;
+    
+}
+#btn-register-fixed img{
+    transform: rotate(90deg);
+}
+
+/* style carousel  */
+@media (max-width:500px) {
+    .size-xs-27{
+        font-size: 27px;
+    }
+}
+.beneficios .carousel-control{
+    top: 107%;
+}
+.beneficios .carousel-control a{
+    width: auto !important;
+
+}
+.beneficios .carousel-control img{
+    height: 40px;
+}
+.beneficios .carousel-indicators li{
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background-color: rgba(211, 61, 61, 0.425);
+    cursor: pointer
+}
+.beneficios .carousel-indicators li.active{
+    background-color: #E50A17;
+    width: 50px;
+    border-radius: 25px
+}
+.beneficios .carousel-item .carousel-caption{
+    height: 200px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+
+/* style table calendario */
+    .table-responsive.scroll-style::-webkit-scrollbar{
+        -webkit-appearance: none;
+        height: 8px;
+        background-color: rgba(230, 230, 230, 0.459);
+        border-radius: 8px;
+    }
+    
+    .table-responsive.scroll-style::-webkit-scrollbar-thumb {
+        width: 50px !important;
+        border-radius: 8px;
+        background-color: rgb(165, 165, 165); 
+        -webkit-box-shadow: 0 0 1px rgba(226, 226, 226, 0.938);
+    }
+
+/* gracias html */
+.goodbye-message {
+    background: rgb(270, 270, 270, 0.6);
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    left: 5%;
+}
+.programa-titulacion-gracias{
+    min-height: 920px !important;
+    background-attachment: scroll;
+}
