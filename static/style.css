@@ -104,9 +104,6 @@ header{
     background-attachment: fixed;
 
 }
-#widget-form{
-    padding-top: 280px;
-}
 
 @media (min-width:768px) {
     .bg-programa-titulacion{
@@ -193,16 +190,3 @@ main section h2 {
         background-color: rgb(165, 165, 165); 
         -webkit-box-shadow: 0 0 1px rgba(226, 226, 226, 0.938);
     }
-
-/* gracias html */
-.goodbye-message {
-    background: rgb(270, 270, 270, 0.6);
-    position: absolute;
-    top: 10%;
-    right: 5%;
-    left: 5%;
-}
-.programa-titulacion-gracias{
-    min-height: 920px !important;
-    background-attachment: scroll;
-}
